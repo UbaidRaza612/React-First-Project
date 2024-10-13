@@ -1,20 +1,21 @@
-import React from "react";
-import "../index.css";
+import React from 'react'
 import { Link } from "react-router-dom";
-import About from "../Roots/About";
-import Contact from "../Roots/Contact";
-function Header() {
+import "../index.css"; 
+const Header = () => {
   return (
-    <ul>
-      <li>
-      <Link className="link" to='/about'>About</Link>  
-      </li>
-      <li>
-      <Link className="link" to='/contact'>Contact</Link>  
+    <div>
+       <header>
+      <h2>Nathan</h2>
+      <ul className="menu" id="menu">
+        <li><Link to={"/"}>Home</Link></li>
+        <li><Link to={"/Contact"}>Contact</Link></li>
+        <li><Link to={"/About"}>About</Link></li>
+       
+      </ul>
 
-      </li>
-    </ul>
-  );
+    </header>
+    </div>
+  )
 }
 
-export default Header;
+export default Header

@@ -1,12 +1,12 @@
-import React from 'react'
-import Root from './root'
-
-function About() {
+import React from 'react';
+import "../index.css"; 
+const About =()=> {
   return (
     <>
-    {/* <Root /> */}
-      <h1>About</h1>
-    </>
+        <div className='container'>
+          <h2 className='h1'>Welcome to the About Page</h2>
+        </div>
+   </>
   )
 }
 

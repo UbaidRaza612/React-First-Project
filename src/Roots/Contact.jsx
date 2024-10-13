@@ -1,12 +1,12 @@
-import React from 'react'
-import Root from './root'
-
+import React from 'react';
+import "../index.css"; 
 function Contact() {
   return (
     <>
-    {/* <Root /> */}
-      <h1>Contact</h1>
-    </>
+        <div className='container'>
+        <h2>Welcome to the Contact Page</h2>
+        </div>
+   </>
   )
 }
 
